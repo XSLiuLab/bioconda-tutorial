@@ -1,24 +1,25 @@
-# Conda and Bioconda for bioinformatics tools: a short tutorial
+# 使用Bioconda辅助生物信息学软件安装：一个简短的教程
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/MonashBioinformaticsPlatform/bioconda-tutorial/master?filepath=Bioconda_Installation.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/XSLiuLab/bioconda-tutorial/master?filepath=Bioconda_Installation.ipynb)
 
-This tutorial covers the basics of setting up the `conda` tool to install bioinformatics tools from [Bioconda](https://bioconda.github.io/) and producing "reproducible environments" as a foundation for your own analysis or pipeline. You don't need `sudo`.
+这个教程包含设置`conda`以便于从[Bioconda](https://bioconda.github.io/)安装生物信息学工具并生产可重复的环境作为你自己分析或流程的基础。你不需要`sudo`。
 
-* View the [tutorial notebook](https://github.com/MonashBioinformaticsPlatform/bioconda-tutorial/blob/master/Bioconda_Installation.ipynb).
-* Or as [slides](https://monashbioinformaticsplatform.github.io/bioconda-tutorial/#/)
+* 查看[教程 notebook](https://github.com/XSLiuLab/bioconda-tutorial/blob/master/Bioconda_Installation.ipynb)。
+* 或者[slides](https://xsliulab.github.io/bioconda-tutorial/)版本。
 
-# Requirements:
+# 要求
 
-Just reading the [Jupyter notebook](https://github.com/MonashBioinformaticsPlatform/bioconda-tutorial/blob/master/Bioconda_Installation.ipynb) right here on Github and cut'n'pasting into your terminal is probably all you need.
+如果仅仅阅读[教程 notebook](https://github.com/XSLiuLab/bioconda-tutorial/blob/master/Bioconda_Installation.ipynb)除了好一点的浏览器不需要任何其他要求。
 
-However, if you'd like to run this notebook on your computer, you will need:
+然而，如果你想要在自己的电脑上运行这个notebook，你需要
 
-* Jupyter Notebook (or JupyterLab)
+* Jupyter Notebook 或 JupyterLab
 * Jupyter Bash Kernel: https://github.com/takluyver/bash_kernel
 
-If you've cloned the repository, to view the slides locally.
+如果你已经克隆了这个仓库，可以在本地查看幻灯片。
+
 ```bash
 run_slides.h
 ```
